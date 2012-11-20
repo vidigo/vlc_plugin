@@ -1,5 +1,8 @@
 /*****************************************************************************
  * vout.c: Dummy video output display method for testing purposes
+ *
+ * Modified by VidiGo to create a bridge between VLC and our own code base
+ *
  *****************************************************************************
  * Copyright (C) 2000-2009 the VideoLAN team
  * $Id: 3caf795fe7d22eb9c1daf0d4cd61104ec6bdefdb $
