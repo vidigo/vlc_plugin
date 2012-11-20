@@ -1,0 +1,19 @@
+#pragma once
+
+#define BUILD_REVISION "${GIT_REV}"
+
+#define PROJECT_NAME ${CMAKE_PROJECT_NAME}
+
+#define BUILD_SYSTEM ${CMAKE_SYSTEM}
+
+#define C_COMPILER ${CMAKE_C_COMPILER}
+
+#define CXX_COMPILER ${CMAKE_CXX_COMPILER}
+
+#define MAJOR ${MAJOR}
+#define MINOR ${MINOR}
+#define PATCH ${PATCH}
+
+#define VERSION "${MAJOR}.${MINOR}.${PATCH}"
+
+#define BUILDDATE __DATE__ " " __TIME__
